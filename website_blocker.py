@@ -8,7 +8,8 @@ website_list = ["facebook.com", "wwww.facebook.com", "www.youtube.com", "youtube
 
 while True:
 
-	if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 16) :
+	if ((dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 12, 30)) or
+	  (dt(dt.now().year, dt.now().month, dt.now().day, 14) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 20))) :
 		print("WORKING HOURS")
 		with open(host_path, 'r+') as file:
 			contents = file.read()
