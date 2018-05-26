@@ -4,7 +4,7 @@ from datetime import datetime as dt
 host_path = "/etc/hosts"
 redirect = "127.0.0.1"
 
-website_list = ["facebook.com", "wwww.facebook.com", "www.youtube.com", "youtube.com"]
+website_list = ["facebook.com", "wwww.facebook.com", "www.youtube.com", "youtube.com", "www.instagram.com", "instagram.com", "netflix.com", "www.netflix.com"]
 
 while True:
 
